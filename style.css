@@ -1,0 +1,91 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    margin: 0%;
+    padding-bottom: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+header {
+    min-height: 100vh;
+    background-color: rgb(59, 197, 252); ;
+    padding-bottom: 0.5rem;;
+}
+
+nav {
+    background-color: rgb(252, 217, 59);
+    position: fixed;
+    width: 100%;
+    
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: black;
+    
+}
+nav ul {
+    padding-left: 1rem;
+    color: black;
+}
+header main {
+    padding-top: 4rem;
+    text-align: center;
+}
+header img {
+    width: 50%;
+
+}
+.about-me {
+    text-align: center;
+    padding: 3rem 10%;
+    background-color: royalblue;
+    color: white;
+}
+
+.projects{
+    text-align: center;
+    color: white;
+    background-color: turquoise;
+    padding: 3rem 10%;
+}
+h2 {
+    color: white;
+}
+
+.projects img {
+    width: 32%;
+}
+
+footer li {
+    display: inline-block;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: royalblue;
+    padding: 2rem 10%;
+   
+}
+ul li a {
+    color: white;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
